@@ -90,3 +90,38 @@ a{
     text-decoration: none;
     color:black;
 }
+
+@media(max-width: 800px) {
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    p,a{
+        font-size: .75rem;
+    }
+    .grid > img{
+        height:6.25rem;
+    }
+    .grid > a > img{
+        height:6.25rem;
+    }
+    .github{
+        height:5rem;
+    }
+    .grid{
+        gap:0.5rem
+    }
+    #contact > a > img {
+        height:50px;
+        margin:0px .25px
+    }
+    section{
+        margin:1rem;
+    }
+    .resume-img{
+        height:10rem;
+        border-radius:50%;
+    }
+  }
