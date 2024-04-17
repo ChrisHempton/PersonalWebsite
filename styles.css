@@ -1,0 +1,92 @@
+body{
+    background-color: #99d9ea;
+}
+
+section{
+    margin:5rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p, a{
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#intro{
+    height:10rem;
+    text-align: center;
+    justify-content: center;
+    padding:12rem 16rem 16rem 16rem;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    background-image: url(./images/bg.png);
+}
+
+#resume{
+    display:flex;
+    justify-content: center;
+}
+
+#contact{
+    text-align:center;
+}
+
+#projects{
+    display:flex;
+    justify-content: center;
+}
+
+#about{
+    display:flex;
+    justify-content: center;
+}
+
+.resume-img{
+    height:20rem;
+    border-radius:50%;
+}
+
+.github{
+    height:10rem;
+}
+
+#contact > a > img {
+    height:100px;
+    margin:0px 5px
+}
+
+.resume-text,.projects-text,.about-text{
+    align-content: center;
+    padding:0 2rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:1rem;
+}
+
+.grid > img{
+    height:12.5rem;
+}
+
+.grid > a > img{
+    height:12.5rem;
+}
+
+button {
+    background-color: #eaaa99;
+    border: none;
+    padding: 15px 32px;
+  }
+
+a{
+    text-decoration: none;
+    color:black;
+}
